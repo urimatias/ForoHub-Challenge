@@ -36,12 +36,6 @@ public class TopicController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Optional<DatosListadoTopico>> topicoEspecifico(@PathVariable Long id){
-        if (topicoRepository.findById(id).map(DatosListadoTopico::new).isPresent()){
-            throw new RuntimeException("no existe");
-
-        }
-        System.out.println("Esta presente");
-
         return ResponseEntity.ok(topicoRepository.findById(id).map(DatosListadoTopico::new));
     }
 
