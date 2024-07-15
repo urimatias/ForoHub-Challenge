@@ -82,11 +82,11 @@ Despues de eliminar el tópico 5
 * Java
 * Postgres SQL
 * Intellij
-*Spring Web
-*Spring Boot DevTools
-*Spring Data JPA
-*FlyWay Migration
-*MySQL Driver
+* Spring Web
+* Spring Boot DevTools
+* Spring Data JPA
+* FlyWay Migration
+* MySQL Driver
 *Validation
 *Spring Security
 *JWT
